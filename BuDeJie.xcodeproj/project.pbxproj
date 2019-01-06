@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D1E4D71421D657F600309E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D71321D657F600309E5E /* AppDelegate.m */; };
-		D1E4D71721D657F600309E5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D71621D657F600309E5E /* ViewController.m */; };
 		D1E4D71A21D657F600309E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E4D71821D657F600309E5E /* Main.storyboard */; };
 		D1E4D71C21D657F800309E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E4D71B21D657F800309E5E /* Assets.xcassets */; };
 		D1E4D71F21D657F800309E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E4D71D21D657F800309E5E /* LaunchScreen.storyboard */; };
 		D1E4D72221D657F800309E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D72121D657F800309E5E /* main.m */; };
 		D1E4D72C21D657F800309E5E /* BuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D72B21D657F800309E5E /* BuDeJieTests.m */; };
 		D1E4D73721D657F800309E5E /* BuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D73621D657F800309E5E /* BuDeJieUITests.m */; };
+		D1E4D75C21D6714C00309E5E /* LCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D75B21D6714C00309E5E /* LCEssenceViewController.m */; };
+		D1E4D76221D6726800309E5E /* LCFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D76121D6726800309E5E /* LCFriendTrendViewController.m */; };
+		D1E4D76521D6727600309E5E /* LCPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D76421D6727600309E5E /* LCPublishViewController.m */; };
+		D1E4D76821D6728400309E5E /* LCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D76721D6728400309E5E /* LCNewViewController.m */; };
+		D1E4D76B21D6729F00309E5E /* LCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D76A21D6729F00309E5E /* LCMeViewController.m */; };
+		D1E4D77221D8680100309E5E /* LCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D77121D8680100309E5E /* LCTabBarController.m */; };
+		D1E4D77921D8762700309E5E /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D77821D8762700309E5E /* UIImage+Image.m */; };
+		D1E4D79821E1B39400309E5E /* LCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79721E1B39400309E5E /* LCTabBar.m */; };
+		D1E4D79B21E1F3D200309E5E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79A21E1F3D200309E5E /* UIView+Frame.m */; };
+		D1E4D79F21E2208E00309E5E /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,6 @@
 		D1E4D70F21D657F600309E5E /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E4D71221D657F600309E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1E4D71321D657F600309E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1E4D71521D657F600309E5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1E4D71621D657F600309E5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D1E4D71921D657F600309E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1E4D71B21D657F800309E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E4D71E21D657F800309E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,27 @@
 		D1E4D73221D657F800309E5E /* BuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E4D73621D657F800309E5E /* BuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuDeJieUITests.m; sourceTree = "<group>"; };
 		D1E4D73821D657F800309E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E4D75A21D6714C00309E5E /* LCEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCEssenceViewController.h; sourceTree = "<group>"; };
+		D1E4D75B21D6714C00309E5E /* LCEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEssenceViewController.m; sourceTree = "<group>"; };
+		D1E4D76021D6726800309E5E /* LCFriendTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCFriendTrendViewController.h; sourceTree = "<group>"; };
+		D1E4D76121D6726800309E5E /* LCFriendTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCFriendTrendViewController.m; sourceTree = "<group>"; };
+		D1E4D76321D6727600309E5E /* LCPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCPublishViewController.h; sourceTree = "<group>"; };
+		D1E4D76421D6727600309E5E /* LCPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCPublishViewController.m; sourceTree = "<group>"; };
+		D1E4D76621D6728400309E5E /* LCNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNewViewController.h; sourceTree = "<group>"; };
+		D1E4D76721D6728400309E5E /* LCNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNewViewController.m; sourceTree = "<group>"; };
+		D1E4D76921D6729F00309E5E /* LCMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCMeViewController.h; sourceTree = "<group>"; };
+		D1E4D76A21D6729F00309E5E /* LCMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCMeViewController.m; sourceTree = "<group>"; };
+		D1E4D77021D8680100309E5E /* LCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTabBarController.h; sourceTree = "<group>"; };
+		D1E4D77121D8680100309E5E /* LCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTabBarController.m; sourceTree = "<group>"; };
+		D1E4D77721D8762700309E5E /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		D1E4D77821D8762700309E5E /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		D1E4D79621E1B39400309E5E /* LCTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTabBar.h; sourceTree = "<group>"; };
+		D1E4D79721E1B39400309E5E /* LCTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTabBar.m; sourceTree = "<group>"; };
+		D1E4D79921E1F3D200309E5E /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D1E4D79A21E1F3D200309E5E /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D1E4D79C21E1F69C00309E5E /* BuDeJie-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuDeJie-PrefixHeader.pch"; sourceTree = "<group>"; };
+		D1E4D79D21E2208E00309E5E /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +129,11 @@
 		D1E4D71121D657F600309E5E /* BuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				D1E4D71221D657F600309E5E /* AppDelegate.h */,
-				D1E4D71321D657F600309E5E /* AppDelegate.m */,
-				D1E4D71521D657F600309E5E /* ViewController.h */,
-				D1E4D71621D657F600309E5E /* ViewController.m */,
+				D1E4D74421D6709700309E5E /* Classes */,
 				D1E4D71821D657F600309E5E /* Main.storyboard */,
 				D1E4D71B21D657F800309E5E /* Assets.xcassets */,
 				D1E4D71D21D657F800309E5E /* LaunchScreen.storyboard */,
 				D1E4D72021D657F800309E5E /* Info.plist */,
-				D1E4D72121D657F800309E5E /* main.m */,
 			);
 			path = BuDeJie;
 			sourceTree = "<group>";
@@ -130,6 +154,245 @@
 				D1E4D73821D657F800309E5E /* Info.plist */,
 			);
 			path = BuDeJieUITests;
+			sourceTree = "<group>";
+		};
+		D1E4D74421D6709700309E5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76C21D867DA00309E5E /* Main */,
+				D1E4D74A21D6709700309E5E /* Essence */,
+				D1E4D75621D6709700309E5E /* FriendTrend */,
+				D1E4D74621D6709700309E5E /* Publish */,
+				D1E4D75221D6709700309E5E /* New */,
+				D1E4D74E21D6709700309E5E /* Me */,
+				D1E4D74521D6709700309E5E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D1E4D74521D6709700309E5E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D77321D875CB00309E5E /* Category */,
+				D1E4D71221D657F600309E5E /* AppDelegate.h */,
+				D1E4D71321D657F600309E5E /* AppDelegate.m */,
+				D1E4D72121D657F800309E5E /* main.m */,
+				D1E4D79C21E1F69C00309E5E /* BuDeJie-PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D1E4D74621D6709700309E5E /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D74721D6709700309E5E /* Controller */,
+				D1E4D74821D6709700309E5E /* Model */,
+				D1E4D74921D6709700309E5E /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		D1E4D74721D6709700309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76321D6727600309E5E /* LCPublishViewController.h */,
+				D1E4D76421D6727600309E5E /* LCPublishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D74821D6709700309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D74921D6709700309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D74A21D6709700309E5E /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D74B21D6709700309E5E /* Controller */,
+				D1E4D74C21D6709700309E5E /* Model */,
+				D1E4D74D21D6709700309E5E /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		D1E4D74B21D6709700309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D75A21D6714C00309E5E /* LCEssenceViewController.h */,
+				D1E4D75B21D6714C00309E5E /* LCEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D74C21D6709700309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D74D21D6709700309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D74E21D6709700309E5E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D74F21D6709700309E5E /* Controller */,
+				D1E4D75021D6709700309E5E /* Model */,
+				D1E4D75121D6709700309E5E /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		D1E4D74F21D6709700309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76921D6729F00309E5E /* LCMeViewController.h */,
+				D1E4D76A21D6729F00309E5E /* LCMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D75021D6709700309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D75121D6709700309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D75221D6709700309E5E /* New */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D75321D6709700309E5E /* Controller */,
+				D1E4D75421D6709700309E5E /* Model */,
+				D1E4D75521D6709700309E5E /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		D1E4D75321D6709700309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76621D6728400309E5E /* LCNewViewController.h */,
+				D1E4D76721D6728400309E5E /* LCNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D75421D6709700309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D75521D6709700309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D75621D6709700309E5E /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D75721D6709700309E5E /* Controller */,
+				D1E4D75821D6709700309E5E /* Model */,
+				D1E4D75921D6709700309E5E /* View */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		D1E4D75721D6709700309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76021D6726800309E5E /* LCFriendTrendViewController.h */,
+				D1E4D76121D6726800309E5E /* LCFriendTrendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D75821D6709700309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D75921D6709700309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D76C21D867DA00309E5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D76D21D867DA00309E5E /* Controller */,
+				D1E4D76E21D867DA00309E5E /* Model */,
+				D1E4D76F21D867DA00309E5E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D1E4D76D21D867DA00309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D77021D8680100309E5E /* LCTabBarController.h */,
+				D1E4D77121D8680100309E5E /* LCTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D76E21D867DA00309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1E4D76F21D867DA00309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D79621E1B39400309E5E /* LCTabBar.h */,
+				D1E4D79721E1B39400309E5E /* LCTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D77321D875CB00309E5E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D77721D8762700309E5E /* UIImage+Image.h */,
+				D1E4D77821D8762700309E5E /* UIImage+Image.m */,
+				D1E4D79921E1F3D200309E5E /* UIView+Frame.h */,
+				D1E4D79A21E1F3D200309E5E /* UIView+Frame.m */,
+				D1E4D79D21E2208E00309E5E /* UIBarButtonItem+Item.h */,
+				D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +457,7 @@
 		D1E4D70721D657F600309E5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LC;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = LongMac;
 				TargetAttributes = {
@@ -262,9 +526,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E4D71721D657F600309E5E /* ViewController.m in Sources */,
+				D1E4D76821D6728400309E5E /* LCNewViewController.m in Sources */,
+				D1E4D79F21E2208E00309E5E /* UIBarButtonItem+Item.m in Sources */,
 				D1E4D72221D657F800309E5E /* main.m in Sources */,
+				D1E4D79821E1B39400309E5E /* LCTabBar.m in Sources */,
+				D1E4D75C21D6714C00309E5E /* LCEssenceViewController.m in Sources */,
+				D1E4D77921D8762700309E5E /* UIImage+Image.m in Sources */,
 				D1E4D71421D657F600309E5E /* AppDelegate.m in Sources */,
+				D1E4D76521D6727600309E5E /* LCPublishViewController.m in Sources */,
+				D1E4D76221D6726800309E5E /* LCFriendTrendViewController.m in Sources */,
+				D1E4D77221D8680100309E5E /* LCTabBarController.m in Sources */,
+				D1E4D76B21D6729F00309E5E /* LCMeViewController.m in Sources */,
+				D1E4D79B21E1F3D200309E5E /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +708,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6M3H59V7X;
+				GCC_PREFIX_HEADER = "BuDeJie/Classes/Other/BuDeJie-PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +727,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6M3H59V7X;
+				GCC_PREFIX_HEADER = "BuDeJie/Classes/Other/BuDeJie-PrefixHeader.pch";
 				INFOPLIST_FILE = BuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

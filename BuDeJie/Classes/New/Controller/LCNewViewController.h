@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LCNewViewController.h
 //  BuDeJie
 //
 //  Created by LongMac on 2018/12/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LCNewViewController : UIViewController
 
 @end
-

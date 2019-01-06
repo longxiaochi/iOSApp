@@ -1,0 +1,35 @@
+//
+//  BuDeJie-PrefixHeader.pch
+//  BuDeJie
+//
+//  Created by LongMac on 2019/1/6.
+//  Copyright © 2019年 LongMac. All rights reserved.
+//
+
+#ifndef BuDeJie_PrefixHeader_pch
+#define BuDeJie_PrefixHeader_pch
+
+/*
+ pch存放：
+ 1.公共的宏
+ 2.公共的头文件
+ 3.自定义Log (发布时不需要)
+ */
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
+
+#define LCLogFunc LCLog(@"%s", __func__)
+
+#ifdef DEBUG
+
+#define LCLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define LCLog(...)
+
+#endif
+
+
+#endif /* BuDeJie_PrefixHeader_pch */
