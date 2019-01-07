@@ -7,6 +7,7 @@
 //
 
 #import "LCMeViewController.h"
+#import "LCSettingViewController.h"
 
 @interface LCMeViewController ()
 
@@ -31,7 +32,7 @@
     UIBarButtonItem *nightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selectedImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(nightButtonClick:)];
     
     self.navigationItem.rightBarButtonItems = @[settingItem, nightItem];
-    self.navigationItem.title = @"我";
+    self.navigationItem.title = @"我的";
 }
 
 /**
@@ -39,6 +40,11 @@
  */
 - (void)settingButtonClick {
     LCLogFunc;
+    LCSettingViewController *settingVc = [[LCSettingViewController alloc] init];
+    //需要在跳转之前设置
+    settingVc.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:settingVc animated:YES];
 }
 
 /**

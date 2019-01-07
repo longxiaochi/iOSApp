@@ -14,7 +14,7 @@
 #import "LCMeViewController.h"
 #import "UIImage+Image.h"
 #import "LCTabBar.h"
-#import <objc/runtime.h>
+#import "LCNavigationController.h"
 
 @interface LCTabBarController ()
 
@@ -83,12 +83,12 @@
 - (void)setupAllChildViewController {
     //精华
     LCEssenceViewController *essenceVc = [[LCEssenceViewController alloc] init];
-    UINavigationController *essenceNav = [[UINavigationController alloc] initWithRootViewController:essenceVc];
+    LCNavigationController *essenceNav = [[LCNavigationController alloc] initWithRootViewController:essenceVc];
     [self addChildViewController:essenceNav];
     
     //New
     LCNewViewController *newVc = [[LCNewViewController alloc] init];
-    UINavigationController *newNav = [[UINavigationController alloc] initWithRootViewController:newVc];
+    LCNavigationController *newNav = [[LCNavigationController alloc] initWithRootViewController:newVc];
     [self addChildViewController:newNav];
     
     //发布
@@ -97,12 +97,12 @@
     
     //FriendTrend(好友)
     LCFriendTrendViewController *friendTrendVc = [[LCFriendTrendViewController alloc] init];
-    UINavigationController *friendTrendNav = [[UINavigationController alloc] initWithRootViewController:friendTrendVc];
+    LCNavigationController *friendTrendNav = [[LCNavigationController alloc] initWithRootViewController:friendTrendVc];
     [self addChildViewController:friendTrendNav];
     
     //我
     LCMeViewController *meVc = [[LCMeViewController alloc] init];
-    UINavigationController *meNav = [[UINavigationController alloc] initWithRootViewController:meVc];
+    LCNavigationController *meNav = [[LCNavigationController alloc] initWithRootViewController:meVc];
     [self addChildViewController:meNav];
 }
 

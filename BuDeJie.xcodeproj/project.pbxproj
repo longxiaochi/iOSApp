@@ -24,6 +24,8 @@
 		D1E4D79821E1B39400309E5E /* LCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79721E1B39400309E5E /* LCTabBar.m */; };
 		D1E4D79B21E1F3D200309E5E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79A21E1F3D200309E5E /* UIView+Frame.m */; };
 		D1E4D79F21E2208E00309E5E /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */; };
+		D1E4D7A221E37E1400309E5E /* LCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D7A121E37E1400309E5E /* LCNavigationController.m */; };
+		D1E4D7A921E3831800309E5E /* LCSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D7A821E3831800309E5E /* LCSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,10 @@
 		D1E4D79C21E1F69C00309E5E /* BuDeJie-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuDeJie-PrefixHeader.pch"; sourceTree = "<group>"; };
 		D1E4D79D21E2208E00309E5E /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		D1E4D7A021E37E1400309E5E /* LCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNavigationController.h; sourceTree = "<group>"; };
+		D1E4D7A121E37E1400309E5E /* LCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNavigationController.m; sourceTree = "<group>"; };
+		D1E4D7A721E3831800309E5E /* LCSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCSettingViewController.h; sourceTree = "<group>"; };
+		D1E4D7A821E3831800309E5E /* LCSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		D1E4D74421D6709700309E5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1E4D7A321E382E000309E5E /* Setting */,
 				D1E4D76C21D867DA00309E5E /* Main */,
 				D1E4D74A21D6709700309E5E /* Essence */,
 				D1E4D75621D6709700309E5E /* FriendTrend */,
@@ -362,6 +369,8 @@
 			children = (
 				D1E4D77021D8680100309E5E /* LCTabBarController.h */,
 				D1E4D77121D8680100309E5E /* LCTabBarController.m */,
+				D1E4D7A021E37E1400309E5E /* LCNavigationController.h */,
+				D1E4D7A121E37E1400309E5E /* LCNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -393,6 +402,39 @@
 				D1E4D79E21E2208E00309E5E /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D1E4D7A321E382E000309E5E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D7A421E3830000309E5E /* Controller */,
+				D1E4D7A621E3830000309E5E /* Model */,
+				D1E4D7A521E3830000309E5E /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		D1E4D7A421E3830000309E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E4D7A721E3831800309E5E /* LCSettingViewController.h */,
+				D1E4D7A821E3831800309E5E /* LCSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1E4D7A521E3830000309E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E4D7A621E3830000309E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,8 +578,10 @@
 				D1E4D76521D6727600309E5E /* LCPublishViewController.m in Sources */,
 				D1E4D76221D6726800309E5E /* LCFriendTrendViewController.m in Sources */,
 				D1E4D77221D8680100309E5E /* LCTabBarController.m in Sources */,
+				D1E4D7A921E3831800309E5E /* LCSettingViewController.m in Sources */,
 				D1E4D76B21D6729F00309E5E /* LCMeViewController.m in Sources */,
 				D1E4D79B21E1F3D200309E5E /* UIView+Frame.m in Sources */,
+				D1E4D7A221E37E1400309E5E /* LCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
